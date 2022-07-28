@@ -4,10 +4,17 @@
   <artifactId>Demo</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   <dependencies>
-<dependency>
-    <groupId>org.http4s</groupId>
-    <artifactId>http4s-dsl_2.13</artifactId>
-    <version>1.0.0-M21</version>
-</dependency>
+	<dependency>
+    	<groupId>org.http4s</groupId>
+    	<artifactId>http4s-dsl_2.13</artifactId>
+    	<version>1.0.0-M21</version>
+	</dependency>
+
+	<dependency>
+    	<groupId>io.dropwizard.metrics</groupId>
+    	<artifactId>metrics-core</artifactId>
+    	<version>4.2.3</version>
+	</dependency>
+
   </dependencies>
 </project>
